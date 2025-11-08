@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import google.generativeai as genai  # import correto
 
 # ----- TÍTULO -----
-st.title("Chatbot Gemini Simplificado para Músicas: Nomes e Gêneros")
+st.title("Chatbot Gemini de Músicas")
 
 # ----- HISTÓRICO -----
 if "messages" not in st.session_state:
